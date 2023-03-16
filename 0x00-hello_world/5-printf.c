@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main() - prints a string using the printf() function
+*main - prints a string using the printf() function
 *@void: Indicates no parameter
 *
 *Return: Returns 0

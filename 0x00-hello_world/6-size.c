@@ -12,6 +12,6 @@ printf("Size of a char is %d", sizeof(char));
 printf("Size of an int is %d", sizeof(int));
 printf("Size of a long int is %d", sizeof(long int));
 printf("Size of a long long int is %d", sizeof(long long int));
-printf("Size of a float is %d", (sizeof(float));
+printf("Size of a float is %d", sizeof(float));
 return (0);
 }

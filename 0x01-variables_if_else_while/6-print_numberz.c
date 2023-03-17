@@ -4,7 +4,7 @@
 /**
 * main - Entry point
 *
-* Result: Always 0
+* Result: Always 0 (Success)
 */
 int main(void)
 {
@@ -15,6 +15,6 @@ int main(void)
 		putchar(num);
 		num++;
 	}
-	putchar('\n');	
+	putchar('\n');
 	return (0);
 }

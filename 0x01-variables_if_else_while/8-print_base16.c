@@ -12,7 +12,7 @@ int main(void)
 
 	for (num = '0'; num <= '9'; num++)
 		putchar(num);
-	for (alph = 'A'; alph <= 'F'; alph++)
+	for (alph = 'a'; alph <= 'f'; alph++)
 		putchar(alph);
 	putchar('\n');
 	return (0);

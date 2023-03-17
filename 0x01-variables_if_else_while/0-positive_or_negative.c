@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
-*  main - Entry point
+* main - Entry point
 * 
-*return: Always 0
+* Return: Always 0
 */
 int main(void)
 {

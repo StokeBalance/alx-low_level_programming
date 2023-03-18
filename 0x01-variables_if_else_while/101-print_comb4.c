@@ -23,8 +23,8 @@ int main(void)
 					putchar(m);
 					putchar(l);
 
-					if ((f == 7 && m == 8) && l == 9)
-						break;
+					if (f == 7 && m == 8)
+						continue;
 					putchar(',');
 					putchar(' ');
 				}

@@ -17,14 +17,14 @@ int main(void)
 		{
 			for (l = m + 1; l <= '9'; l++)
 			{
-				if (( f != m) != l)
+				if ((f != m) != l)
 				{
 					putchar(f);
 					putchar(m);
 					putchar(l);
 
-					if ( f == 7 && m == 8 && l == 9)
-						continue;
+					if (f == 7 && m == 8 && l == 9)
+						break;
 					putchar(',');
 					putchar(' ');
 				}

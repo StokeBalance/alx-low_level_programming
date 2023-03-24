@@ -16,7 +16,7 @@ void print_triangle(int size)
 	{
 		for (row = 0; row < size; row++)
 		{
-			for (spaces = size - 1; spaces >= 1; spaces--)
+			for (spaces = size - row; spaces >= 1; spaces--)
 				_putchar(' ');
 			for (hashes = 0; hashes < row; hashes++)
 				_putchar('#');

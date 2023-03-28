@@ -13,7 +13,8 @@ void puts_half(char *str)
 
 	while (str[len] != '\0')
 		len++;
-	int n = (len - 1) / 2;
+
+	float n = (len - 1) / 2;
 
 	if (len % 2 == 0)
 	{

@@ -1,4 +1,5 @@
-#include "<main.h>"
+#include "main.h"
+
 /**
 * rev_string - Reverses string
 * @s: String parameter

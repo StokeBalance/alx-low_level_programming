@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * _strstr -Locates a substring
@@ -12,6 +11,8 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+	unsigned int a = 0, b = 0;
+
 	while (haystack[a])
 	{
 		while (needle[b] && (haystack[a] == needle[0]))
